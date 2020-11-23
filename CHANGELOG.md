@@ -2,6 +2,8 @@
 
 ## master (unrealeased)
 
+- `ActiveRecordSharedConnection` is no longer enabled by default when loaded in Rails >= 5.1. ([@palkan][])
+
 - Replaced `TestProf::AnyFixture.reporting_enabled = true` with `TestProf::AnyFixture.config.reporting_enabled = true`. ([@palkan][])
 
 ## 0.12.2 (2020-09-03)
