@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "lib/test_prof/version"
-
 Gem::Specification.new do |spec|
   spec.name = "test-prof"
-  spec.version = TestProf::VERSION
+  spec.version = "0.12.2"
   spec.authors = ["Vladimir Dementyev"]
   spec.email = ["dementiev.vm@gmail.com"]
 
